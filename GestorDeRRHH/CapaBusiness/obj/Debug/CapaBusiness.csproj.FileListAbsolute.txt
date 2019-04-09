@@ -1,0 +1,11 @@
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\obj\Debug\CapaBusiness.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaBusiness.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaBusiness.pdb
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaDeDatos.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaEntity.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaDeDatos.pdb
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\bin\Debug\CapaEntity.pdb
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\obj\Debug\CapaBusiness.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\obj\Debug\CapaBusiness.csproj.CopyComplete
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\obj\Debug\CapaBusiness.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaBusiness\obj\Debug\CapaBusiness.pdb

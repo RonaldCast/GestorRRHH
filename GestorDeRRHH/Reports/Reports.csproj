@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA902155-F26E-41D6-BFE5-35FFA81372D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reports</RootNamespace>
+    <AssemblyName>Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fReportDepartament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportDepartament.Designer.cs">
+      <DependentUpon>fReportDepartament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportEmployee.Designer.cs">
+      <DependentUpon>fReportEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportExist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportExist.Designer.cs">
+      <DependentUpon>fReportExist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportJobTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportJobTitle.Designer.cs">
+      <DependentUpon>fReportJobTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportLicense.Designer.cs">
+      <DependentUpon>fReportLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportPaySheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportPaySheet.Designer.cs">
+      <DependentUpon>fReportPaySheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportPermission.Designer.cs">
+      <DependentUpon>fReportPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportVacation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportVacation.Designer.cs">
+      <DependentUpon>fReportVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDepartament.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDepartament.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportExist.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportExist.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportJobTitle.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportJobTitle.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportLicense.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportLicense.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPaySheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportPaySheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPermission.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportPermission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportVacation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportVacation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="fReportDepartament.resx">
+      <DependentUpon>fReportDepartament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportEmployee.resx">
+      <DependentUpon>fReportEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportExist.resx">
+      <DependentUpon>fReportExist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportJobTitle.resx">
+      <DependentUpon>fReportJobTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportLicense.resx">
+      <DependentUpon>fReportLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportPaySheet.resx">
+      <DependentUpon>fReportPaySheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportPermission.resx">
+      <DependentUpon>fReportPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportVacation.resx">
+      <DependentUpon>fReportVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDepartament.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportDepartament.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportExist.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportExist.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportJobTitle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportJobTitle.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportLicense.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportLicense.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPaySheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportPaySheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPermission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportPermission.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportVacation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportVacation.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

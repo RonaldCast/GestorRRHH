@@ -1,0 +1,9 @@
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\obj\Debug\CapaData.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\obj\Debug\CapaData.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\bin\Debug\CapaEntity.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\bin\Debug\CapaEntity.pdb
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\obj\Debug\CapaData.csproj.CopyComplete
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\DELL\Desktop\Proyecto final programacion\GestorDeRRHH\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
